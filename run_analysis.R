@@ -1,7 +1,3 @@
-#Environment Setup
-setwd("/Users/manasi/Documents/data_spec_course/course3proj/")
-.libPaths(c("/Users/manasi/Documents/data_spec_course/mylibpath/", .libPaths()))
-
 #Feature
 features <- read.csv("UCI HAR Dataset/features.txt", sep=" ", header=FALSE, col.names = c("FeatureIndex", "Feature"))
 
